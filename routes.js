@@ -4,3 +4,6 @@ Router.configure({
 Router.route('/', function(){
   this.render('home');
 })
+Router.route('/new', function(){
+  this.render('new');
+})
