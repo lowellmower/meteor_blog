@@ -4,5 +4,5 @@ Blog.config({
     desc: "Building, Breaking, Friendship Making."
   },
   adminRole: 'blogAdmin',
-  authorRole: 'blogAuthor'
+  authorRole: 'blogAuthor',
 });

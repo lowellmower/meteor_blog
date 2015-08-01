@@ -1,4 +1,9 @@
 <template name="home">
   <h1>Home Page: Blog</h1>
-
+  {{#if currentUser}}
+  <form class="new-post">
+    <input type="text" name="title" placeholder="title">
+    <input type="text" name="body" placeholder="new post">
+  </form>
+  {{/if}}
 </template>
